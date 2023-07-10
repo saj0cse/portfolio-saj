@@ -12,24 +12,24 @@
     background: #FD6E0A;
     border: 0px;
     color: #FFF;
-    font-size: 15px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 700;
-    line-height: normal;
-    padding: 18px 35px;
+    padding: 15px 30px;
     }
 nav{
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 0px 150px;
 }
 .nav-title{
     color: #181818;
-    font-size: 25px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
+
 }
 nav> ul{
     display: flex;
@@ -38,6 +38,7 @@ nav> ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+    
 }
 nav a{
     text-decoration: none;
@@ -47,14 +48,39 @@ nav a{
 /* header stylee */
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 20px 20px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profile-pic{
-    width: 250px;
+    width: 500px;;
    
 
+}
+.hi-class{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.banner-title{
+    color: #181818;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.banner-des{
+   margin-top: 20px;
+}
+.banner-content{
+    max-width: 500px;
 }
