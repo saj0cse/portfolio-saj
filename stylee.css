@@ -3,8 +3,7 @@
     font-family: 'Open Sans', sans-serif;
  }
 
-/* nav related stylee */
-.text-primary{
+ .text-primary{
     color: #FD6E0A;
 }
 .btn-primary{
@@ -16,6 +15,16 @@
     font-weight: 700;
     padding: 15px 30px;
     }
+
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+/* nav related stylee */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -83,4 +92,33 @@ nav a{
 }
 .banner-content{
     max-width: 500px;
+}
+
+/* Main section stylee */
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+/* about section stylee */
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+     margin-top: 130px;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+.section-info-continer{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
