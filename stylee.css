@@ -242,8 +242,61 @@ textarea {
     border-radius: 5px;
     /* background: #FFF; */
     border: 0;
-    width: 100%;
+    width: 70%;
 }
 .socal-link{
     padding: 10px;   
 }
+
+/* Responsive stylee */
+   
+
+/* mobile device */
+
+@media screen and (max-width:576px) {
+    .skill-container,  .resume-container, footer {
+        flex-direction: column;
+    }
+ 
+    main{
+        padding: 5px;
+    }
+    .section-des{
+        padding: 5px;
+    }
+
+    /*  */
+    footer{
+        /* flex-direction: column; */
+        padding: 15px;
+        gap: 15px;
+    }
+    .footer-column{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+   
+
+    /*  */
+
+    .about{
+        padding: 5px;
+
+    }
+    .section-info-continer{
+        flex-direction: column;
+    }
+    .banner{
+        padding: 5px;
+        flex-direction: column;
+    }
+    .profile-pic{
+        height: 350px;
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
