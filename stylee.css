@@ -291,8 +291,8 @@ textarea {
         padding: 5px;
         flex-direction: column;
     }
-    .profile-pic{
-        height: 350px;
+    .header, .profile-pic{
+        height: 100%;
         width: 100%;
     }
     nav{
